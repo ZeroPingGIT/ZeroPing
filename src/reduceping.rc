@@ -1,0 +1,46 @@
+/*
+
+    Copyright 2012 Orson Peters. All rights reserved.
+
+    Redistribution of this work, with or without modification, is permitted if
+    Orson Peters is attributed as the original author or licensor of
+    this work, but not in any way that suggests that Orson Peters endorses
+    you or your use of the work.
+
+    This work is provided by Orson Peters "as is" and any express or implied
+    warranties are disclaimed. Orson Peters is not liable for any damage
+    arising in any way out of the use of this work.
+
+*/
+
+#include <windows.h>
+
+#include "resource.h"
+
+/* icons */
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+SMALL_ICON ICON ".\\icons\\16x16.ico"
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+NORMAL_ICON ICON ".\\icons\\32x32.ico"
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+LARGE_ICON ICON ".\\icons\\48x48.ico"
+
+/* version info */
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+2 VERSIONINFO
+    FILEVERSION     1,0,0,0
+    PRODUCTVERSION  1,0,0,0
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0x00000000
+    FILEFLAGS       0x00000000
+{
+    
+}
+
+/* manifest */
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST ".\\manifest.xml"
